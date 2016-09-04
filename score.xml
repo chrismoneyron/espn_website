@@ -1,0 +1,70 @@
+<scores>
+	<date>
+		<day>23</day>
+		<month>Jun</month>
+		<year>2016</year>
+	</date>
+	<game>
+		<away_name>San Francisco Giants</away_name>
+		<home_name>Pittsburgh Pirates</home_name>
+		<away_score>5</away_score>
+		<home_score>3</home_score>
+		<inning>Final</inning>
+	</game>
+	<game>
+		<away_name>Seattle Mariners</away_name>
+		<home_name>Detroit Tigers</home_name>
+		<away_score>4</away_score>
+		<home_score>5</home_score>
+		<inning>Final/10</inning>
+	</game>
+	<game>
+		<away_name>Philadelphia Phillies</away_name>
+		<home_name>Minnesota Twins</home_name>
+		<away_score>7</away_score>
+		<home_score>3</home_score>
+		<inning>Final</inning>
+	</game>
+	<game>
+		<away_name>Chicago White Sox</away_name>
+		<home_name>Boston Red Sox</home_name>
+		<away_score>7</away_score>
+		<home_score>8</home_score>
+		<inning>Final/10</inning>
+	</game>
+	<game>
+		<away_name>New York Mets</away_name>
+		<home_name>Atlanta Braves</home_name>
+		<away_score>3</away_score>
+		<home_score>4</home_score>
+		<inning>Final</inning>
+	</game>
+	<game>
+		<away_name>San Diego Padres</away_name>
+		<home_name>Cincinatti Reds</home_name>
+		<away_score>7</away_score>
+		<home_score>4</home_score>
+		<inning>Final</inning>
+	</game>
+	<game>
+		<away_name>Chicago Cubs</away_name>
+		<home_name>Miami Marlins</home_name>
+		<away_score>2</away_score>
+		<home_score>4</home_score>
+		<inning>Final</inning>
+	</game>
+	<game>
+		<away_name>Arizona Diamondbacks</away_name>
+		<home_name>Colorado Rockies</home_name>
+		<away_score>7</away_score>
+		<home_score>6</home_score>
+		<inning>Final</inning>
+	</game>
+	<game>
+		<away_name>Oakland Athletics</away_name>
+		<home_name>Los Angeles Angels</home_name>
+		<away_score>5</away_score>
+		<home_score>4</home_score>
+		<inning>Final</inning>
+	</game>
+</scores>

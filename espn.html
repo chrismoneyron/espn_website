@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src = "jquery-1.12.4.js"></script>
+	<link rel = "stylesheet" type = "text/css" href = "espn_style.css">
+	<title>ESPN Scores</title>
+</head>
+<body>
+	<h1>ESPN</h1>
+	<div class = "date_background">
+		<div class = "date">
+			<span class = "day"></span>
+			<span class = "month"></span>
+			<span class = "year"></span>
+		</div>
+	</div>
+	<table id = "scores" cellpadding = "10"></table>
+
+	<button type = "button" onclick = "load_doc()">Show Scores</button>
+
+	<script src = "espn_functions.js"></script>
+	<script>
+	function load_doc() {
+		// Use AJAX to send a request to a server
+		var xhttp = new XMLHttpRequest();
+		xhttp.onreadystatechange = function() {
+			if (xhttp.readyState == 4 && xhttp.status == 200) {
+				load_date(xhttp);
+				change_score(xhttp);
+			}
+		};
+		xhttp.open("GET", "score.xml", true);
+		xhttp.send();
+	}
+	</script>
+</body>
+</html>

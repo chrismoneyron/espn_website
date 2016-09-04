@@ -1,0 +1,100 @@
+body {
+	background-color: #eeeeee;
+}
+
+@font-face {
+	font-family: espn;
+	src: url(esp.ttf);
+}
+
+h1 {
+	font-family: espn;
+	font-style: italic;
+	font-size: 50px;
+	color: #b30000;
+	text-shadow: 4px 4px #cccccc;
+	margin: 0px 10px;
+}
+
+button {
+	background-color: #e60000;
+	box-shadow: 1px 4px 1px #b30000, 1px 0 1px #b30000;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	text-shadow: -1px -1px #b30000;
+	width: 120px;
+	height: 40px;
+	font-size: 16px;
+	text-align: center;
+	outline: none;
+	margin: 20px 10px;
+}
+
+.date_background {
+	position: fixed;
+	background-image: url("calendar(1).png");
+	border: none;
+	border-radius: 20px;
+	top: 0;
+	right: 0;
+	margin: 20px 20px;
+	width: 146px;
+	height: 134px;
+}
+
+.date {
+	position: fixed;
+	top: 11px;
+	right: 8px;
+	width: 70px;
+	font-family: Georiga, serif;
+	font-weight: bold;
+	color: white;
+	margin: 50px 30px;
+}
+
+.day, .month, .year {
+	position: absolute;
+}
+
+.day {
+	font-size: 30px;
+	top: 15px;
+}
+
+.month {
+	top: 0;
+	left: 2px;
+	font-size: 18px;
+}
+
+.year {
+	top: 45px;
+	left: -6px;
+	font-size: 20px;
+}
+
+#scores {
+	margin: 10px;
+	border: 1px solid #dddddd;
+	border-collapse: collapse;
+	background-color: white;
+}
+
+#scores tr, td {
+	border: 1px solid #dddddd;
+}
+
+#scores td td {
+	border: none;
+}
+
+td strong {
+	font-size: 20px;
+}
+
+#inning {
+	font-size: 12px;
+	width: 70px;
+}
